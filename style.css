@@ -263,10 +263,10 @@ a {
     /* justify-content: center; */
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 420px) {
 	
     * {
-        max-width: 417px;
+        max-width: 420px;
     }
     .img-container {
         display: flex;
@@ -317,7 +317,7 @@ a {
     padding-right: 10%;
     padding-bottom: 30px;
     padding-top: 46px;
-    width: 414px;
+    width: 420px;
     justify-content: center;
 }
 .footer {
