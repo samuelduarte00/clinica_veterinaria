@@ -262,3 +262,59 @@ a {
     display: flex;
     /* justify-content: center; */
 }
+
+@media only screen and (max-width: 414px) {
+    .img-container {
+        display: flex;
+        height: 380px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 5%;
+        padding-right: 5%;
+        justify-content: center;
+  
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+    }
+    
+.wpp {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    padding: 20px, 40px, 20px, 40px;
+    border-radius: 90px;
+    background-color: #16C79A;
+    width: 276px;
+    height: 64px;
+    gap: 10px  
+}
+
+.wpp:hover {
+    cursor: pointer;
+    background-color: #1AA17E;
+}
+
+#texto-principal h1 {
+    font-weight: 700;
+    color: #19456B;
+    font-size: 46px;
+    line-height: 60px;
+    padding-bottom: 16px;
+}
+
+#texto-principal {
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 30px;
+    padding-top: 46px;
+    width: 549px;
+    justify-content: center;
+}
+}
