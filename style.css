@@ -263,7 +263,7 @@ a {
     /* justify-content: center; */
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 414px) {
 	
     * {
         max-width: 420px;
@@ -317,7 +317,7 @@ a {
     padding-right: 10%;
     padding-bottom: 30px;
     padding-top: 46px;
-    width: 420px;
+    width: 414px;
     justify-content: center;
 }
 .footer {
