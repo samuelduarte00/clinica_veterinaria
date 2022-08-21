@@ -265,9 +265,9 @@ a {
 
 @media only screen and (max-width: 414px) {
 	
-    body {
-       width: 414px;
-	}
+    * {
+        max-width: 414px;
+    }
     .img-container {
         display: flex;
         height: 390px;
