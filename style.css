@@ -264,6 +264,10 @@ a {
 }
 
 @media only screen and (max-width: 414px) {
+	
+    body {
+        max-width: 414px;
+	}
     .img-container {
         display: flex;
         height: 390px;
@@ -272,7 +276,6 @@ a {
         padding-left: 5%;
         padding-right: 5%;
         justify-content: center;
-  
     }
 
     a {
